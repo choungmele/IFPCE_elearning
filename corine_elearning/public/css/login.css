@@ -1,0 +1,65 @@
+body {
+    background-image: url('/images/fond.jpeg');
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    margin: 0;
+    
+    background-position: center;
+  }
+  
+  .login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 10 10 60px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  
+  .email-input {
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    width: 150px; /* Définir la largeur du logo */
+    height: auto; /* La hauteur s'ajustera automatiquement pour préserver les proportions */
+    display: block; /* Permet de centrer le logo horizontalement */
+  margin: 0 auto; 
+  }
+
+  label {
+    font-family: Arial;
+    font-size: 50px; /* Changer la taille */
+    color: blue; /* Changer la couleur en rouge */
+  }
+
+  .lab{
+    font-family: Arial;
+    font-size: 15px; /* Changer la taille */
+    color: black; /* Changer la couleur en rouge */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
